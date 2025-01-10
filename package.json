@@ -7,7 +7,8 @@
   "type": "commonjs",
   "main": "postcss.config.js",
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "build": "npx tailwindcss -i ./style.css -o ./dist/output.css --minify"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
